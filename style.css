@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray;
+}
+
+.heading {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+#searchInput {
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 5px;
+}
+
+#submit {
+    padding: 10px;
+    margin: 10px;
+    width: 7%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: #fff;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #fff;
+    color: cornflowerblue;
+}
+
+.sorah {
+    margin: 20px;
+    padding: 10px;
+}
+
+#output {
+    padding-left: 100px;
+    color: rgb(51, 12, 90);
+}
+
+#sorah-name {
+    padding-left: 100px;
+    color: rgb(37, 7, 68);
+    margin: 20px;
+}
+
+#toutput {
+    padding-left: 100px;
+    color: rgb(51, 12, 90);
+}
